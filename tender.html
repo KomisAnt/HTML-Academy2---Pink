@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Index Page - HTML Academy2 - Pink</title>
+</head>
+
+<body class="page-body">
+
+  <header class="page-header">
+    <h1 class="visually-hidden">Pink - Магазин хорошего настроения</h1>
+    <div class="page-header__wrap">
+      <a class="header-logo" href="#">
+        <img class="header-logo--mobile" src="" alt="Логотип магазина Пинк" width="74" height="23">
+        <img class="header-logo--tablet" src="" alt="Логотип магазина Пинк" width="145" height="40">
+        <img class="header-logo--mobile" src="" alt="Логотип магазина Пинк" width="147" height="40">
+      </a>
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__item">
+            <a class="header-nav__link" href="index.html">Главная</a>
+          </li>
+          <li class="header-nav__item">
+            <a class="header-nav__link" href="#">Фотографии</a>
+          </li>
+          <li class="header-nav__item">
+            <a class="header-nav__link header-nav__link--current" href="#">Конкурс</a>
+          </li>
+          <li class="header-nav__item">
+            <a class="header-nav__link" href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-tender">
+    <div class="page-tender__wrap">
+      <h1 class="page-tender__title">
+        Конкурс на самое безшабашное путешествие с Пинк
+      </h1>
+
+      <form class="page-tender__form tender-form" action="https://echo.htmlacademy.ru" method="post">
+        <p class="tender-form__description">
+          Поделитесь своей историей и получите шанс <br> выиграть <br> ценный приз — 1000 миль на вашу бонусную карту!
+          <br> Пожалуйста, заполните форму ниже:
+        </p>
+        <p class="form-input">
+          <label for="tender-participant__surname">Фамилия</label>
+          <input class="tender-form__input tender-form__participant-surname" id="tender-participant__surname"
+            type="text" placeholder="Укажите фамилию">
+        </p>
+        <p class="form-input">
+          <label for="tender-participant__name">Имя</label>
+          <input class="tender-form__input tender-form__participant-name" id="tender-participant__name" type="text"
+            placeholder="Введите ваше имя">
+        </p>
+        <p class="form-input">
+          <label for="tender-participant__patronymic">Отчество</label>
+          <input class="tender-form__input tender-form__participant-patronymic" id="tender-participant__patronymic"
+            type="text" placeholder="Укажите фамилию">
+        </p>
+
+        <fieldset class="tender-form__fieldset fieldset__app">
+          <legend class="tender-form__fieldset-legend">С каким приложением путешествовали?</legend>
+          <div class="tender-form__fieldset-wrap">
+            <label class="tender-form__label fieldset__app-label">
+              <input class="tender-form__radio" type="radio" name="app-travel" checked>
+              Pink для iOS
+              <span class="tender-form__radio--custom"></span>
+            </label>
+            <label class="tender-form__label fieldset__app-label">
+              <input class="tender-form__radio" type="radio" name="app-travel">
+              Pink для Android
+              <span class="tender-form__radio--custom"></span>
+            </label>
+            <label class="tender-form__label fieldset__app-label">
+              <input class="tender-form__radio" type="radio" name="app-travel">
+              Windows Phone
+              <span class="tender-form__radio--custom"></span>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="tender-form__fieldset fieldset__contacts">
+          <legend class="tender-form__fieldset-legend">Контактная информация</legend>
+          <div class="tender-form__fieldset-wrap">
+            <label class="fieldset__contacts-label">
+              <input class="tender-form__input fieldset__contacts-phone" type="tel" placeholder="Номер, пожалуйста">
+              <span class="fieldset__contacts-phone--icon"></span>
+              Номер телефона
+            </label>
+            <label class="fieldset__contacts-label">
+              <input class="tender-form__input fieldset__contacts-email" type="email" placeholder="Введите почту">
+              <span class="fieldset__contacts-email--icon"></span>
+              Адрес почты
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="tender-form__fieldset fieldset__achievements">
+          <legend class="tender-form__fieldset-legend">Ваши безшабашные достижения в путешествии</legend>
+          <div class="tender-form__fieldset-wrap">
+            <label class="tender-form__label fieldset__achievements-label">
+              <input class="tender-form__fieldset-checkbox" type="checkbox" name="Сделал селфи с акулой" checked>
+              <span class="tender-form__checkbox--custom"></span>
+              Сделал селфи с акулой
+            </label>
+            <label class="tender-form__label fieldset__achievements-label">
+              <input class="tender-form__fieldset-checkbox" type="checkbox" name="Обгорел на пляже" checked>
+              <span class="tender-form__checkbox--custom"></span>
+              Обгорел на пляже
+            </label>
+            <label class="tender-form__label fieldset__achievements-label">
+              <input class="tender-form__fieldset-checkbox" type="checkbox" name="Видел Чака Норриса">
+              <span class="tender-form__checkbox--custom"></span>
+              Видел Чака Норриса
+            </label>
+            <label class="tender-form__label fieldset__achievements-label">
+              <input class="tender-form__fieldset-checkbox" type="checkbox" name="Накупил сувениров">
+              <span class="tender-form__checkbox--custom"></span>
+              Накупил сувениров
+            </label>
+            <label class="tender-form__label fieldset__achievements-label">
+              <input class="tender-form__fieldset-checkbox" type="checkbox" name="Удержал башню" checked>
+              <span class="tender-form__checkbox--custom"></span>
+              Удержал башню
+            </label>
+            <label class="tender-form__label fieldset__achievements-label">
+              <input class="tender-form__fieldset-checkbox" type="checkbox" name="Разгромил отель">
+              <span class="tender-form__checkbox--custom"></span>
+              Разгромил отель
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="tender-form__fieldset fieldset__emotions">
+          <legend class="tender-form__fieldset-legend">Опишите свои эмоции</legend>
+          <div class="tender-form__fieldset-wrap">
+            <textarea class="tender-form__input fieldset__emotions-textarea" cols="10" rows="20"
+              placeholder="Можно прям в красках, не стесняясь в выражениях">
+            </textarea>
+          </div>
+        </fieldset>
+
+      </form>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="footer__wrap">
+      <div class="footer__logo">
+        <img class="footer__logo-img" src="" alt="Логотип магазина Пинк">
+      </div>
+      <ul class="footer__social-list social">
+        <li class="social__item">
+          <a class="social__link" href="">Twitter</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="">Facebook</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="">Youtube</a>
+        </li>
+      </ul>
+      <div class="footer__copyright">
+        <p class="footer__copyright-title">Разработано</p>
+        <a class="footer__copyright-link" href="">
+          <img class="footer__copyright-img" src="" alt="Логотип разработчика сайта">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
