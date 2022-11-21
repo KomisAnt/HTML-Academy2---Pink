@@ -14,7 +14,7 @@ export const styles = () => {
     .pipe(postcss([
       autoprefixer()
     ]))
-    .pipe(gulp.dest('source/css', { sourcemaps: '.' }))
+    .pipe(gulp.dest('css/style.css', { sourcemaps: '.' }))
     .pipe(browser.stream());
 }
 

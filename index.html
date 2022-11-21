@@ -4,10 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Index Page - HTML Academy2 - Pink</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page-body">
-
+  <!-- Header -->
   <header class="page-header">
     <h1 class="visually-hidden">Pink - Магазин хорошего настроения</h1>
     <div class="page-header__wrap">
@@ -16,6 +17,8 @@
         <img class="header-logo--tablet" src="" alt="Логотип магазина Пинк" width="145" height="40">
         <img class="header-logo--mobile" src="" alt="Логотип магазина Пинк" width="147" height="40">
       </a>
+
+      <!-- Navigation -->
       <nav class="header-nav">
         <ul class="header-nav__list">
           <li class="header-nav__item">
@@ -35,7 +38,12 @@
     </div>
   </header>
 
+  <!-- Main -->
+
   <main class="page-main">
+
+    <!-- Section - Intro -->
+
     <section class="page-main__intro intro">
       <h2 class="intro-title">Взгляните на жизнь ярче</h2>
       <img class="intro-img" src="" alt="">
@@ -53,6 +61,8 @@
       </ul>
       <p class="intro__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
     </section>
+
+    <!-- Section - Advantages -->
 
     <section class="page-main__advantages advantages">
       <div class="advantages__wrap">
@@ -91,6 +101,8 @@
       </div>
     </section>
 
+    <!-- Section - Research -->
+
     <section class="main-page__research research">
       <div class="research__wrap">
         <div class="research__inner-wrap">
@@ -108,6 +120,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Section - Reviews -->
 
     <section class="main-page__reviews reviews">
       <div class="reviews__wrap slider">
@@ -134,17 +148,24 @@
       </div>
     </section>
 
+    <!-- Section - Price -->
+
     <section class="page-main__price price">
       <h2 class="visually-hidden">Наши цены</h2>
       <div class="price--mobile">
-        <div class="price__wrap--mobile slider">
-          <ul class="price__list--mobile slider-list">
-            <li class="price__item--mobile slider-item">
-              <div class="price__item-title--mobile">
-                База 1,99 usd
+        <div class="price__wrap slider">
+          <ul class="price__list slider-list">
+            <li class="price__item slider-item">
+              <div class="price__item-title">
+                <span class="price__item-title--name">
+                  База
+                </span>
+                <span class="price__item-title--cost">
+                  1,99 usd
+                </span>
               </div>
-              <div class="price__item__data--mobile">
-                <p class="price__item__data-name--mobile">
+              <div class="price__item__data">
+                <p class="price__item__data-name">
                   Розовый фильтр
                 </p>
                 <div class="price__item__data-value--mobile">
@@ -152,28 +173,38 @@
                 </div>
               </div>
             </li>
-            <li class="price__item--mobile slider-item">
-              <div class="price__item-title--mobile">
-                Стандарт 3,99 usd
+            <li class="price__item slider-item">
+              <div class="price__item-title">
+                <span class="price__item-title--name">
+                  Стандарт
+                </span>
+                <span class="price__item-title--cost">
+                  3,99 usd
+                </span>
               </div>
-              <div class="price__item__data--mobile">
-                <p class="price__item__data-name--mobile">
+              <div class="price__item__data">
+                <p class="price__item__data-name">
                   Смайлики
                 </p>
-                <div class="price__item__data-value--mobile">
+                <div class="price__item__data-value">
                   <img class="data-value__img" src="" alt="">
                 </div>
               </div>
             </li>
-            <li class="price__item--mobile slider-item">
-              <div class="price__item-title--mobile">
-                Анлим 9,99 usd
+            <li class="price__item slider-item">
+              <div class="price__item-title">
+                <span class="price__item-title--name">
+                  Анлим
+                </span>
+                <span class="price__item-title--cost">
+                  9,99 usd
+                </span>
               </div>
-              <div class="price__item__data--mobile">
-                <p class="price__item__data-name--mobile">
+              <div class="price__item__data">
+                <p class="price__item__data-name">
                   Комментарии
                 </p>
-                <div class="price__item__data-value--mobile">
+                <div class="price__item__data-value">
                   <img class="data-value__img" src="" alt="">
                 </div>
               </div>
@@ -186,15 +217,38 @@
           </div>
         </div>
       </div>
+
+      <!-- Section - Price - for Tablet & Desktop  -->
+
       <div class="price--desktop">
         <div class="price__wrap--desktop">
           <table class="price__table">
             <tbody>
               <th class="price__table-title price__table-title--tablet price__table-title--desktop"></th>
-              <th class="price__table-title price__table-title--tablet price__table-title--desktop">База 1,99 usd</th>
-              <th class="price__table-title price__table-title--tablet price__table-title--desktop">Стандарт 3,99 usd
+              <th class="price__table-title price__table-title--tablet price__table-title--desktop">
+                <span class="price__item-title--name">
+                  База
+                </span>
+                <span class="price__item-title--cost">
+                  1,99 usd
+                </span>
               </th>
-              <th class="price__table-title price__table-title--tablet price__table-title--desktop">Анлим 9,99 usd</th>
+              <th class="price__table-title price__table-title--tablet price__table-title--desktop">
+                <span class="price__item-title--name">
+                  Стандарт
+                </span>
+                <span class="price__item-title--cost">
+                  3,99 usd
+                </span>
+              </th>
+              <th class="price__table-title price__table-title--tablet price__table-title--desktop">
+                <span class="price__item-title--name">
+                  Анлим
+                </span>
+                <span class="price__item-title--cost">
+                  9,99 usd
+                </span>
+              </th>
               <tr class="price__table-row">
                 <td class="price__item__data-name">Розовый фильтр</td>
                 <td class="price__item__data-value">
@@ -238,25 +292,27 @@
 
     </section>
 
+    <!-- Section - Contacts -->
+
     <section class="main-page__contacts contacts">
       <div class="contacts__wrap">
-        <h2 class="contacts__title">Свяжитесь с нами</h2>
+        <h2 class="contacts__title">Остались вопросы? Свяжитесь с нами</h2>
         <div class="contacts__list">
           <dl class="contacts__item">
             <dt class="contacts__item-title">Звоните</dt>
             <dd class="contacts__item-description">
-              <a class="contacts__item-phone" href="tel:+8125556666">+7 (812) 555-66-66</a>
+              <a class="contacts__item-value contacts__item-phone" href="tel:+8125556666">+7 (812) 555-66-66</a>
             </dd>
           </dl>
           <dl class="contacts__item">
             <dt class="contacts__item-title">Пишите</dt>
             <dd class="contacts__item-description">
-              <a class="contacts__item-email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+              <a class="contacts__item-value contacts__item-email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
             </dd>
           </dl>
           <dl class="contacts__item">
             <dt class="contacts__item-title">Приезжайте в гости</dt>
-            <dd class="contacts__item-description">
+            <dd class="contacts__item-value contacts__item-address">
               <p class="contacts__item-address">
                 ул. Большая Конюшенная, 19/8
               </p>
@@ -269,6 +325,8 @@
       </div>
     </section>
   </main>
+
+  <!-- Footer -->
 
   <footer class="page-footer">
     <div class="footer__wrap">
