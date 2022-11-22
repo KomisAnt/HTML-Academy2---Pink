@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Index Page - HTML Academy2 - Pink</title>
+  <title>Tender Page - HTML Academy2 - Pink</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page-body">
@@ -47,19 +48,19 @@
           <br> Пожалуйста, заполните форму ниже:
         </p>
         <p class="form-input">
-          <label for="tender-participant__surname">Фамилия</label>
-          <input class="tender-form__input tender-form__participant-surname" id="tender-participant__surname"
-            type="text" placeholder="Укажите фамилию">
+          <label class="tender-form__name-label" for="surname">Фамилия</label>
+          <input class="tender-form__input tender-form__participant-surname" id="surname" type="text"
+            placeholder="Укажите фамилию">
         </p>
         <p class="form-input">
-          <label for="tender-participant__name">Имя</label>
-          <input class="tender-form__input tender-form__participant-name" id="tender-participant__name" type="text"
+          <label class="tender-form__name-label" for="name">Имя</label>
+          <input class="tender-form__input tender-form__participant-name" id="name" type="text"
             placeholder="Введите ваше имя">
         </p>
         <p class="form-input">
-          <label for="tender-participant__patronymic">Отчество</label>
-          <input class="tender-form__input tender-form__participant-patronymic" id="tender-participant__patronymic"
-            type="text" placeholder="Укажите фамилию">
+          <label class="tender-form__name-label" for="patronymic">Отчество</label>
+          <input class="tender-form__input tender-form__participant-patronymic" id="patronymic" type="text"
+            placeholder="Укажите фамилию">
         </p>
 
         <fieldset class="tender-form__fieldset fieldset__app">
@@ -138,11 +139,21 @@
         <fieldset class="tender-form__fieldset fieldset__emotions">
           <legend class="tender-form__fieldset-legend">Опишите свои эмоции</legend>
           <div class="tender-form__fieldset-wrap">
-            <textarea class="tender-form__input fieldset__emotions-textarea" cols="10" rows="20"
+            <textarea class="tender-form__input fieldset__emotions-textarea" cols="25" rows="5"
               placeholder="Можно прям в красках, не стесняясь в выражениях">
             </textarea>
           </div>
         </fieldset>
+
+        <div class="tender-form__button-wrap">
+          <button class="tender-form__button" type="submit">Отправить форму</button>
+        </div>
+
+        <div class="tender-form__footnote-wrap">
+          <p class="tender-form__footnote-text">
+            &#8212; Обязательные поля
+          </p>
+        </div>
 
       </form>
     </div>
