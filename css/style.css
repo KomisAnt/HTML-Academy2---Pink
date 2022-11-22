@@ -75,6 +75,12 @@ body {
   color: #ffffff;
 }
 
+.page-catalog__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+}
+
 .advantages__title {
   font-weight: 300;
   font-size: 24px;
@@ -135,6 +141,30 @@ body {
   line-height: 33px;
   color: #D22856;
   text-decoration: none;
+}
+
+.publish-post__author-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.publish-post__time {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.publish-post__text {
+  line-height: 24px;
+}
+
+.publish-post__likes-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #D22856;
 }
 
 .footer__copyright-title {
